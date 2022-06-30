@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Day20_reflection_MoodAnalyser
 {
+
     public class MoodAnalyser
     {
         string message;
 
         /// <summary>
-        /// empty constructor
+        /// Default constructor
         /// </summary>
         public MoodAnalyser()
         {
@@ -20,7 +21,6 @@ namespace Day20_reflection_MoodAnalyser
         /// <summary>
         /// parameterised constructor with null or empty message 
         /// </summary>
-        /// <param name="message"></param>
         public MoodAnalyser(string message)
         {
             this.message = message;
@@ -29,7 +29,6 @@ namespace Day20_reflection_MoodAnalyser
         /// <summary>
         /// Method to analyse mood with custom exception
         /// </summary>
-        /// <returns></returns>
         public string AnalyserMood()
         {
             try
@@ -54,4 +53,5 @@ namespace Day20_reflection_MoodAnalyser
 
         }
     }
+
 }
